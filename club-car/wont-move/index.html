@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Club Car Won&#39;t Move: DS &amp; Precedent Diagnosis | CartFix</title>
+<meta name="description" content="Club Car golf cart won't move? Step-by-step diagnosis for DS and Precedent including OBC check, solenoid test, and controller diagnosis.">
+<link rel="canonical" href="https://golfcartfix-atlas.netlify.app/club-car/wont-move/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1470322051236593" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Cart<span>Fix</span></a>
+      <div class="main-nav">
+        <a href="/ezgo/">E-Z-GO</a>
+        <a href="/club-car/">Club Car</a>
+        <a href="/yamaha/">Yamaha</a>
+        <a href="/fix/">Fix By Symptom</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CartFix</a> &rsaquo; <a href="/club-car/">Club Car</a> &rsaquo; Won&#39;t Move</div>
+    <h1>Club Car Won&#39;t Move: Step-by-Step Diagnosis</h1>
+    <p class="hero-sub">Covers DS (36V and 48V) and Precedent. The OBC on 48V models adds a diagnostic step that most guides skip &mdash; this one doesn&#39;t.</p>
+  </div>
+</section>
+
+<section class="action-panel">
+  <div class="container">
+    <h2>Fast Answer: Check Battery Voltage First</h2>
+    <p>Measure total pack voltage at the main battery terminals. A 48V pack should read 50&ndash;52V charged; 36V pack reads 37&ndash;38V. If pack voltage is below 34V (48V) or 25V (36V), the OBC or charger threshold is preventing operation. Charge first. If pack voltage is in range, the diagnostic sequence is: solenoid click test &rarr; F/R switch &rarr; controller &rarr; motor.</p>
+    <div class="action-grid">
+      <div class="action-item"><strong>48V DS (1995&ndash;2014)</strong><p>Check OBC connector first. A loose or corroded OBC 6-pin connector causes no-move and no-charge simultaneously.</p></div>
+      <div class="action-item"><strong>Solenoid Click Test</strong><p>Press pedal, listen for click under seat. No click = upstream fault (switch, key, OBC signal). Click + no move = solenoid or controller.</p></div>
+      <div class="action-item"><strong>PDS System (2004+)</strong><p>PDS Precedent: check the run/tow switch under the seat. Must be in RUN. Also check seat switch — PDS disables drive if seat switch open.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-content">
+  <div class="container">
+    <h2>Full Diagnostic Sequence</h2>
+
+    <h3>1. Run/Tow Switch</h3>
+    <p>Every Club Car has a Run/Tow switch under the seat. It must be in the <strong>RUN</strong> position for the cart to operate. It sounds obvious, but this gets missed constantly &mdash; especially after battery maintenance when the switch gets bumped to TOW accidentally. Check it before doing anything else.</p>
+
+    <h3>2. Battery Pack Voltage</h3>
+    <p>Measure total pack voltage across the full string. For 48V packs (6&times;8V): should read 50&ndash;52V resting after a full charge. For 36V packs (6&times;6V): 37&ndash;38V. Below these ranges, the OBC (on 48V models) will prevent the charger from engaging and may also affect drive circuit activation. Charge the pack first.</p>
+
+    <h3>3. OBC Check (48V DS 1994.5&ndash;2014, Precedent pre-2014)</h3>
+    <p>The OBC is a small black box typically mounted under the seat on the driver&#39;s side. It has a 6-pin connector. Disconnect and reconnect this connector &mdash; corrosion on the OBC pins is a frequent cause of no-move and no-charge on 48V Club Cars. Clean the connector pins with electrical contact cleaner if there&#39;s any green or white corrosion visible.</p>
+
+    <h3>4. Solenoid Click Test</h3>
+    <p>Press the accelerator with key on and F/R switch in Forward. Listen for a click from the solenoid (under the seat, near the batteries). A click means the solenoid coil is energizing. Test the main contacts with a multimeter in continuity mode across the two large bolt terminals during the click. No continuity = failed solenoid contacts. Replace solenoid ($25&ndash;$60).</p>
+
+    <h3>5. Forward/Reverse Switch</h3>
+    <p>If there&#39;s no click: test the F/R switch. On DS models it&#39;s under the seat; on Precedent it&#39;s in the dash. Disconnect the switch and test continuity in each direction. Failed F/R switch = no solenoid signal regardless of battery state.</p>
+
+    <h3>6. Controller (IQ / PDS)</h3>
+    <p>If solenoid clicks and closes but cart doesn&#39;t move, test voltage at the motor terminals during pedal press. No voltage output from controller = failed controller. Note: on PDS Precedent models, also check the accelerator Hall sensor (the Pedal Position Sensor) &mdash; failure here makes the controller see zero throttle request.</p>
+
+    <table class="cost-table">
+      <thead><tr><th>Component</th><th>DIY Cost</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td>Solenoid</td><td>$25&ndash;$60</td><td>30 min</td></tr>
+        <tr><td>F/R switch (DS)</td><td>$30&ndash;$75</td><td>20 min</td></tr>
+        <tr><td>OBC (On-Board Computer)</td><td>$35&ndash;$80</td><td>20 min</td></tr>
+        <tr><td>PDS accelerator sensor</td><td>$40&ndash;$90</td><td>30 min</td></tr>
+        <tr><td>IQ/PDS controller</td><td>$250&ndash;$550</td><td>1&ndash;2 hrs</td></tr>
+        <tr><td>Battery set (6&times;8V)</td><td>$480&ndash;$700</td><td>1.5 hrs</td></tr>
+      </tbody>
+    </table>
+<div class="aff-box">
+  <strong>Club Car Solenoid (36V/48V) &mdash; Amazon</strong>
+  <p>Replacement solenoid for Club Car DS and Precedent. Match your voltage.</p>
+  <a href="https://www.amazon.com/s?k=Club+Car+golf+cart+solenoid+replacement&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+<div class="aff-box">
+  <strong>Club Car OBC On-Board Computer &mdash; Amazon</strong>
+  <p>Replacement OBC for 1994.5–2014 Club Car 48V. Resolves charging and no-move faults caused by failed OBC.</p>
+  <a href="https://www.amazon.com/s?k=Club+Car+OBC+on+board+computer+replacement&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+    <p style="margin-top:20px"><a href="/club-car/">&larr; Back to Club Car Guides</a></p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="footer-logo" href="/">Cart<span style="color:#f97316">Fix</span></a>
+        <p class="footer-tagline">Step-by-step diagnostics for E-Z-GO, Club Car, and Yamaha golf carts. Real repair guides with parts sourcing.</p>
+      </div>
+      <div class="footer-col">
+        <h2>By Brand</h2>
+        <ul>
+          <li><a href="/ezgo/">E-Z-GO Guides</a></li>
+          <li><a href="/club-car/">Club Car Guides</a></li>
+          <li><a href="/yamaha/">Yamaha Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Fix By Symptom</h2>
+        <ul>
+          <li><a href="/fix/golf-cart-beeping-wont-move/">Beeping &amp; Won&#39;t Move</a></li>
+          <li><a href="/fix/golf-cart-slow-uphill/">Slow on Hills</a></li>
+          <li><a href="/fix/golf-cart-runs-then-dies/">Runs Then Dies</a></li>
+          <li><a href="/about.html">About CartFix</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CartFix &mdash; operated by Atlas Edge Group &mdash; <a href="/privacy.html" style="color:#64748b">Privacy Policy</a>. As an Amazon Associate we earn from qualifying purchases. All repair procedures are for informational purposes only.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Club Car OBC Bypass: 5-Minute Procedure | CartFix</title>
+<meta name="description" content="Club Car charger won't turn on? Bypass the OBC (On-Board Computer) on 48V DS and Precedent models to recover a deeply discharged pack. Step-by-step procedure.">
+<link rel="canonical" href="https://golfcartfix-atlas.netlify.app/club-car/obc-bypass/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1470322051236593" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Cart<span>Fix</span></a>
+      <div class="main-nav">
+        <a href="/ezgo/">E-Z-GO</a>
+        <a href="/club-car/">Club Car</a>
+        <a href="/yamaha/">Yamaha</a>
+        <a href="/fix/">Fix By Symptom</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CartFix</a> &rsaquo; <a href="/club-car/">Club Car</a> &rsaquo; OBC Bypass</div>
+    <h1>Club Car OBC Bypass: 5-Minute Procedure</h1>
+    <p class="hero-sub">The On-Board Computer on 1994.5&ndash;2014 Club Car 48V prevents charging when pack voltage is too low. This bypass lets you charge a deeply discharged pack without replacing the OBC.</p>
+  </div>
+</section>
+
+<section class="action-panel">
+  <div class="container">
+    <h2>Fast Answer: Which Models Have an OBC?</h2>
+    <p><strong>Affected models:</strong> Club Car DS 48V (1994.5&ndash;2014) and Precedent 48V (2004&ndash;2013). The 2014+ Precedent and all 36V models do not have an OBC. If your charger plugs in and does absolutely nothing on a 48V model, and your pack is deeply discharged, the OBC is likely blocking the charge cycle.</p>
+    <div class="action-grid">
+      <div class="action-item"><strong>Temporary Bypass</strong><p>Unplug the OBC 6-pin connector during charging only. Reconnect after charge is complete. No wiring changes.</p></div>
+      <div class="action-item"><strong>Permanent Bypass</strong><p>Run a jumper wire from battery B+ to the OBC signal wire. Charger always sees full voltage. OBC is bypassed permanently.</p></div>
+      <div class="action-item"><strong>OBC Replacement</strong><p>If OBC itself is failed (not just low voltage issue), replace for $35&ndash;$80. Often the better long-term fix.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-content">
+  <div class="container">
+    <h2>Why the OBC Blocks Charging</h2>
+    <p>The Club Car OBC (On-Board Computer) monitors the total battery pack voltage via a signal wire. When the charger is plugged in, the OBC communicates with the charger and tells it whether to begin a charge cycle. If pack voltage is below approximately 34V (a deeply discharged 48V pack), the OBC signals the charger to stay off &mdash; the logic being that a severely discharged pack may have a failed cell that shouldn&#39;t be force-charged.</p>
+    <p>The problem: once a pack gets below that threshold through normal discharge or sitting unused, you can&#39;t charge it back up through normal means. The bypass breaks the OBC&#39;s hold on the charger so you can recover the pack.</p>
+
+    <div class="warn-box">
+      <strong>&#9888; Important:</strong> The OBC bypass is a recovery procedure for deeply discharged packs. If you permanently bypass the OBC, your charger will no longer have the low-voltage protection the OBC provides. Individual battery voltage testing becomes more important to catch failed cells before they damage the charger.
+    </div>
+
+    <h3>Temporary Bypass Procedure (Recommended First Step)</h3>
+    <ol class="step-list">
+      <li><strong>Locate the OBC.</strong> Lift the Club Car seat. The OBC is a small black rectangular module, typically mounted on the driver&#39;s side of the battery tray or on the frame rail. It has a 6-pin gray or black connector.</li>
+      <li><strong>Disconnect the 6-pin OBC connector.</strong> This disconnects the OBC&#39;s communication line from the charger circuit. With the OBC signal removed, most Club Car chargers default to charging mode.</li>
+      <li><strong>Plug in your charger.</strong> The charger should now attempt a charge cycle without the OBC blocking it. Let it run until complete.</li>
+      <li><strong>Reconnect the OBC connector after charging.</strong> The OBC is now restored and will resume its normal protective monitoring role.</li>
+      <li><strong>Test individual batteries.</strong> If the pack was deeply discharged, test each battery individually after the charge cycle to identify any failed cells.</li>
+    </ol>
+
+    <h3>Permanent Bypass Wiring</h3>
+    <p>For a permanent bypass: on the OBC, find the B+ signal wire in the 6-pin connector (typically orange in Club Car wiring). Connect this wire directly to a fused connection on the positive battery terminal. This tells the charger it always sees full pack voltage and will always allow a charge cycle. Use a 5A inline fuse on the jumper wire.</p>
+    <p>Many Club Car owners doing a charger upgrade (replacing the original Lester charger with a DPI or Schauer unit) do a permanent OBC bypass as part of the installation, since newer smart chargers have their own battery protection logic.</p>
+
+    <h3>When to Replace the OBC Instead</h3>
+    <p>If the bypass procedure lets you charge but the OBC connector shows corrosion, bent pins, or burn marks &mdash; or if the cart had a previous no-charge problem that wasn&#39;t caused by a low pack &mdash; the OBC itself may be failed and should be replaced. A new OBC is $35&ndash;$80 and installs in 20 minutes.</p>
+
+    <table class="cost-table">
+      <thead><tr><th>Option</th><th>Cost</th><th>Best For</th></tr></thead>
+      <tbody>
+        <tr><td>Temporary bypass (no parts)</td><td>$0</td><td>One-time pack recovery</td></tr>
+        <tr><td>Permanent bypass jumper wire</td><td>$5&ndash;$10</td><td>Repeated deep discharge, older pack</td></tr>
+        <tr><td>OBC replacement</td><td>$35&ndash;$80</td><td>Corrosion or actual OBC failure</td></tr>
+        <tr><td>Upgraded charger (bypasses OBC entirely)</td><td>$200&ndash;$400</td><td>Full system upgrade</td></tr>
+      </tbody>
+    </table>
+<div class="aff-box">
+  <strong>Club Car OBC Replacement &mdash; Amazon</strong>
+  <p>Direct replacement OBC for 1994.5–2014 Club Car 48V DS and Precedent. If bypass doesn't hold, replace the OBC.</p>
+  <a href="https://www.amazon.com/s?k=Club+Car+OBC+replacement+48V&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+<div class="aff-box">
+  <strong>Club Car Lester Charger 48V &mdash; Amazon</strong>
+  <p>Replacement charger compatible with Club Car OBC system. Confirm your cart year.</p>
+  <a href="https://www.amazon.com/s?k=Club+Car+48V+golf+cart+charger+Lester&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+    <p style="margin-top:20px"><a href="/club-car/">&larr; Back to Club Car Guides</a></p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="footer-logo" href="/">Cart<span style="color:#f97316">Fix</span></a>
+        <p class="footer-tagline">Step-by-step diagnostics for E-Z-GO, Club Car, and Yamaha golf carts. Real repair guides with parts sourcing.</p>
+      </div>
+      <div class="footer-col">
+        <h2>By Brand</h2>
+        <ul>
+          <li><a href="/ezgo/">E-Z-GO Guides</a></li>
+          <li><a href="/club-car/">Club Car Guides</a></li>
+          <li><a href="/yamaha/">Yamaha Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Fix By Symptom</h2>
+        <ul>
+          <li><a href="/fix/golf-cart-beeping-wont-move/">Beeping &amp; Won&#39;t Move</a></li>
+          <li><a href="/fix/golf-cart-slow-uphill/">Slow on Hills</a></li>
+          <li><a href="/fix/golf-cart-runs-then-dies/">Runs Then Dies</a></li>
+          <li><a href="/about.html">About CartFix</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CartFix &mdash; operated by Atlas Edge Group &mdash; <a href="/privacy.html" style="color:#64748b">Privacy Policy</a>. As an Amazon Associate we earn from qualifying purchases. All repair procedures are for informational purposes only.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

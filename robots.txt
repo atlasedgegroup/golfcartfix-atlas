@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://golfcartfix-atlas.netlify.app/sitemap.xml

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Z-GO Charger Flashing Red — DeltaQ Flash Codes Explained | CartFix</title>
+<meta name="description" content="EZGO golf cart charger flashing red? DeltaQ QuiQ flash codes 1-5 explained with fixes. Manual battery recovery procedure for packs too low to charge.">
+<link rel="canonical" href="https://golfcartfix-atlas.netlify.app/ezgo/charger-flashing-red/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1470322051236593" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Cart<span>Fix</span></a>
+      <div class="main-nav">
+        <a href="/ezgo/">E-Z-GO</a>
+        <a href="/club-car/">Club Car</a>
+        <a href="/yamaha/">Yamaha</a>
+        <a href="/fix/">Fix By Symptom</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CartFix</a> &rsaquo; <a href="/ezgo/">E-Z-GO</a> &rsaquo; Charger Flashing Red</div>
+    <h1>E-Z-GO Charger Flashing Red: What the Codes Mean</h1>
+    <p class="hero-sub">Covers DeltaQ QuiQ (2010+ TXT), PowerWise (pre-2010 TXT), and RXV chargers. Flash codes translated, with battery recovery procedures for packs too dead to trigger a charge.</p>
+  </div>
+</section>
+
+<section class="action-panel">
+  <div class="container">
+    <h2>Fast Answer</h2>
+    <p>The most common cause of a red-flashing charger is a battery pack that&#39;s dropped below the charger&#39;s activation threshold. The DeltaQ won&#39;t begin a charge cycle if pack voltage is below ~34V (48V pack) or ~25V (36V pack). If the pack has sat discharged for weeks, you may need to manually trickle-charge individual batteries to bring them up before the charger will engage.</p>
+    <div class="action-grid">
+      <div class="action-item"><strong>Flash Code 1 (DeltaQ)</strong><p>Battery voltage too low to start charge. Manually boost individual cells to ~6V each, then retry charger.</p></div>
+      <div class="action-item"><strong>Flash Code 2</strong><p>Charge timeout — pack couldn&#39;t reach full voltage within time limit. Usually a weak or failing battery.</p></div>
+      <div class="action-item"><strong>Flash Code 3</strong><p>High battery temperature. Let pack cool 2 hours before retrying. Check for shorted cell.</p></div>
+      <div class="action-item"><strong>Solid Red (PowerWise)</strong><p>Fault condition. Try disconnecting AC and DC for 5 min. If it persists, test pack voltage — below threshold is the usual culprit.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-content">
+  <div class="container">
+    <h2>DeltaQ QuiQ Flash Codes (2010+ EZGO TXT)</h2>
+    <p>The DeltaQ QuiQ charger uses a red LED that flashes in sequences to indicate fault conditions. Count the number of flashes in each burst, pause, then count again to confirm the code.</p>
+    <table class="cost-table">
+      <thead><tr><th>Flash Count</th><th>Meaning</th><th>Action</th></tr></thead>
+      <tbody>
+        <tr><td>1 flash</td><td>Battery voltage below minimum threshold</td><td>Manual trickle charge each battery to 6&ndash;8V, retry charger</td></tr>
+        <tr><td>2 flashes</td><td>Charge timeout — pack failed to reach full voltage</td><td>Test each battery; replace any cell below 5.5V (6V) or 7V (8V)</td></tr>
+        <tr><td>3 flashes</td><td>Battery temperature too high</td><td>Allow 2-hour cool-down; check for shorted cell generating heat</td></tr>
+        <tr><td>4 flashes</td><td>Charger AC input fault</td><td>Check outlet voltage (should be 108&ndash;132V AC); try different outlet</td></tr>
+        <tr><td>5 flashes</td><td>Charger internal fault</td><td>Charger unit failed; requires replacement or warranty claim</td></tr>
+        <tr><td>Solid red</td><td>No battery detected / connection issue</td><td>Check DC output cable connections at battery pack</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Manual Battery Recovery Procedure (Flash Code 1)</h3>
+    <p>When pack voltage is too low for the DeltaQ to engage, you need to manually bring each battery up to a minimum voltage. This requires a 12V automotive battery charger or a small trickle charger.</p>
+    <ol class="step-list">
+      <li><strong>Identify the battery configuration.</strong> Open the seat. You&#39;ll see either six 6V batteries (36V pack) or six 8V batteries (48V pack) connected in series.</li>
+      <li><strong>Test each battery individually.</strong> Measure voltage across each battery&#39;s own terminals. Any battery below 4V needs individual charging. Below 2V is likely sulfated and may not recover.</li>
+      <li><strong>Connect a 12V trickle charger across one low battery.</strong> Set to 2A max. Charge for 30&ndash;60 minutes until it reads at least 5.5V (6V battery) or 7V (8V battery).</li>
+      <li><strong>Repeat for each low battery.</strong> You don&#39;t need them fully charged &mdash; just above the DeltaQ&#39;s minimum threshold.</li>
+      <li><strong>Reconnect the DeltaQ charger.</strong> Total pack should now be above the activation threshold and the charger should begin its normal charge cycle.</li>
+    </ol>
+
+    <div class="warn-box">
+      <strong>&#9888; Safety note:</strong> Never charge batteries in an enclosed space. Lead-acid batteries off-gas hydrogen during charging. Keep open flames and sparks away from the battery compartment.
+    </div>
+
+    <h3>PowerWise Charger (Pre-2010 EZGO TXT)</h3>
+    <p>The older PowerWise charger doesn&#39;t have flash codes &mdash; it shows a solid LED status. A solid red or no-charge condition usually means the pack voltage is below the 26V minimum (36V system). The same manual recovery procedure above applies. PowerWise chargers have a simpler design and are more tolerant of marginal pack voltage, but they also fail more often with age. A 15+ year old PowerWise that&#39;s not charging is as likely to be charger failure as battery failure.</p>
+
+    <table class="cost-table">
+      <thead><tr><th>Component</th><th>Replacement Cost</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>DeltaQ QuiQ charger (48V)</td><td>$250&ndash;$400</td><td>OEM or compatible; confirm algorithm matches battery chemistry</td></tr>
+        <tr><td>PowerWise charger (36V)</td><td>$150&ndash;$280</td><td>Less common; refurbished units widely available</td></tr>
+        <tr><td>Battery set (6&times;8V 48V)</td><td>$400&ndash;$700</td><td>Trojan T-875 or equivalent; replace all six at once</td></tr>
+        <tr><td>Battery set (6&times;6V 36V)</td><td>$280&ndash;$480</td><td>Trojan T-605 or equivalent</td></tr>
+      </tbody>
+    </table>
+<div class="aff-box">
+  <strong>DeltaQ QuiQ 48V Charger &mdash; Amazon</strong>
+  <p>Replacement DeltaQ charger for 2010+ EZGO TXT 48V. Confirm your cart's voltage and algorithm number before ordering.</p>
+  <a href="https://www.amazon.com/s?k=DeltaQ+QuiQ+48V+golf+cart+charger&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+<div class="aff-box">
+  <strong>Trojan T-875 8V Golf Cart Battery &mdash; Amazon</strong>
+  <p>OEM-spec deep-cycle 8V battery. Replace all 6 in the pack at once for best results.</p>
+  <a href="https://www.amazon.com/s?k=Trojan+T-875+8V+golf+cart+battery&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+    <p style="margin-top:20px"><a href="/ezgo/">&larr; Back to E-Z-GO Guides</a></p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="footer-logo" href="/">Cart<span style="color:#f97316">Fix</span></a>
+        <p class="footer-tagline">Step-by-step diagnostics for E-Z-GO, Club Car, and Yamaha golf carts. Real repair guides with parts sourcing.</p>
+      </div>
+      <div class="footer-col">
+        <h2>By Brand</h2>
+        <ul>
+          <li><a href="/ezgo/">E-Z-GO Guides</a></li>
+          <li><a href="/club-car/">Club Car Guides</a></li>
+          <li><a href="/yamaha/">Yamaha Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Fix By Symptom</h2>
+        <ul>
+          <li><a href="/fix/golf-cart-beeping-wont-move/">Beeping &amp; Won&#39;t Move</a></li>
+          <li><a href="/fix/golf-cart-slow-uphill/">Slow on Hills</a></li>
+          <li><a href="/fix/golf-cart-runs-then-dies/">Runs Then Dies</a></li>
+          <li><a href="/about.html">About CartFix</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CartFix &mdash; operated by Atlas Edge Group &mdash; <a href="/privacy.html" style="color:#64748b">Privacy Policy</a>. As an Amazon Associate we earn from qualifying purchases. All repair procedures are for informational purposes only; work safely and consult a professional for high-voltage systems.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Z-GO Won&#39;t Move: Diagnosis Guide (TXT &amp; RXV) | CartFix</title>
+<meta name="description" content="EZGO golf cart won't move? Diagnose battery, solenoid, F/R switch, controller, and motor step by step. TXT and RXV covered with part costs.">
+<link rel="canonical" href="https://golfcartfix-atlas.netlify.app/ezgo/wont-move/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1470322051236593" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Cart<span>Fix</span></a>
+      <div class="main-nav">
+        <a href="/ezgo/">E-Z-GO</a>
+        <a href="/club-car/">Club Car</a>
+        <a href="/yamaha/">Yamaha</a>
+        <a href="/fix/">Fix By Symptom</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CartFix</a> &rsaquo; <a href="/ezgo/">E-Z-GO</a> &rsaquo; Won&#39;t Move</div>
+    <h1>E-Z-GO Won&#39;t Move: Step-by-Step Diagnosis</h1>
+    <p class="hero-sub">Covers TXT (36V and 48V) and RXV. Walk through battery, solenoid, F/R switch, controller, and motor in the correct order &mdash; most problems resolve at step 1 or 2.</p>
+  </div>
+</section>
+
+<section class="action-panel">
+  <div class="container">
+    <h2>Fast Answer: Start Here</h2>
+    <p>Before anything else, measure your pack voltage at the main battery terminals with a multimeter. A 36V pack should read 37&ndash;38V charged; a 48V pack 50&ndash;52V. Below those numbers, charge first and retest. More than 80% of "won&#39;t move" calls are a discharged or failing battery pack.</p>
+    <div class="action-grid">
+      <div class="action-item"><strong>Step 1</strong><p>Measure pack voltage. Below 36V (36V carts) or 48V (48V carts)? Charge fully, retest.</p></div>
+      <div class="action-item"><strong>Step 2</strong><p>Press pedal. Hear a click from under the seat? That&#39;s the solenoid. No click = F/R switch or key switch problem.</p></div>
+      <div class="action-item"><strong>Step 3</strong><p>Click but no movement = solenoid stuck or bad. Test with multimeter across large posts. No continuity when clicking = replace solenoid.</p></div>
+      <div class="action-item"><strong>Step 4</strong><p>Solenoid closes but cart doesn&#39;t move = controller or motor. Check for voltage at motor terminals during pedal press.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-content">
+  <div class="container">
+    <h2>Full Diagnostic Sequence</h2>
+
+    <h3>1. Battery Pack Voltage Test</h3>
+    <p>Set your multimeter to DC voltage. Touch red probe to the positive terminal of the first battery in the series string and black probe to the negative terminal of the last battery. This measures total pack voltage. A <strong>36V pack</strong> (6&times;6V batteries) should read 37.2&ndash;38.4V fully charged and resting. A <strong>48V pack</strong> (6&times;8V batteries) should read 50&ndash;52V.</p>
+    <p>If you&#39;re below these numbers, do not skip to the solenoid. A low-voltage pack will often produce a solenoid click but still won&#39;t move because the controller sees insufficient voltage and won&#39;t output power. Charge the pack fully (4&ndash;8 hours) and retest before continuing.</p>
+
+    <h3>2. Individual Battery Check</h3>
+    <p>If the pack voltage is in range but the cart still won&#39;t move &mdash; or if the charger won&#39;t turn on &mdash; test each battery individually. A healthy 6V battery reads 6.2&ndash;6.4V resting; a healthy 8V battery reads 8.3&ndash;8.5V. Any battery reading below 5.5V (6V) or 7.5V (8V) is suspect. A single failed battery in the string drops total pack voltage enough to prevent normal operation.</p>
+
+    <h3>3. Solenoid Click Test</h3>
+    <p>The solenoid is the large relay (usually cylindrical, black, with four terminals) mounted under the seat near the batteries. When you press the accelerator pedal, 12&ndash;36V control current should energize the solenoid coil, pulling the contact plate closed and connecting battery power to the motor circuit.</p>
+    <p><strong>Listen for a click.</strong> Press the pedal firmly. A single audible click means the solenoid is receiving signal and the coil is activating. No click means the solenoid isn&#39;t getting signal &mdash; trace back to the F/R switch, key switch, and pedal microswitch before replacing the solenoid.</p>
+    <p>To test the solenoid itself: set your multimeter to continuity. With the solenoid energized (pedal pressed), probe the two large posts (the main battery power terminals). You should get continuity. If not, the contact points inside are worn or burnt &mdash; replace the solenoid.</p>
+
+    <h3>4. Forward/Reverse Switch</h3>
+    <p>The F/R switch is in series with the solenoid control circuit. If it&#39;s failed open, the solenoid won&#39;t receive signal regardless of key or pedal. Set your multimeter to continuity. Disconnect the switch and test each direction position: you should get continuity in both F and R when the lever/switch is moved to each position. No continuity in either position = replace the switch.</p>
+    <p>On TXT models the switch is usually a rotary or lever type mounted in the dash or under the seat. On RXV models it&#39;s a rocker switch in the dash. They look different but test the same way.</p>
+
+    <h3>5. Key Switch</h3>
+    <p>Test the key switch the same way: continuity across the two switch terminals with the key on, open circuit with key off. A failed key switch is less common than an F/R switch failure but check it if F/R tests clean.</p>
+
+    <h3>6. Pedal Microswitch (ITS)</h3>
+    <p>E-Z-GO uses an Inductive Throttle Sensor (ITS) on RXV and a mechanical pedal switch on TXT. On the TXT, the pedal switch should click and close a circuit when the pedal is pressed. Test for continuity at the switch terminals during pedal press. On the RXV, a failed ITS triggers a controller fault code &mdash; check the RXV dash LED for blink codes before replacing.</p>
+
+    <h3>7. Controller Output Test</h3>
+    <p>If the solenoid clicks and closes (confirmed by continuity test) but the cart still won&#39;t move, probe the B+ and M terminals on the controller with a multimeter during a pedal press. You should see voltage proportional to pedal position (rising from 0 to pack voltage). No output from the controller indicates a failed controller. At $200&ndash;600 for a replacement, confirm this diagnosis before ordering.</p>
+
+    <h3>8. Motor</h3>
+    <p>If the controller is outputting voltage to the motor but the cart doesn&#39;t move: check motor brush condition (TXT DC motors only). Remove the brush covers and inspect for worn brushes. Brushes worn below 1/4&rdquo; need replacement. Also check for seized bearings &mdash; spin the motor shaft by hand with the drive belt or coupler disconnected. It should spin freely.</p>
+
+    <table class="cost-table">
+      <thead><tr><th>Component</th><th>DIY Part Cost</th><th>Difficulty</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td>Solenoid replacement</td><td>$20&ndash;$60</td><td>Easy</td><td>30 min</td></tr>
+        <tr><td>Forward/reverse switch</td><td>$25&ndash;$80</td><td>Easy</td><td>20 min</td></tr>
+        <tr><td>Key switch</td><td>$10&ndash;$25</td><td>Easy</td><td>15 min</td></tr>
+        <tr><td>Pedal microswitch</td><td>$10&ndash;$30</td><td>Easy</td><td>20 min</td></tr>
+        <tr><td>Controller (TXT)</td><td>$180&ndash;$450</td><td>Moderate</td><td>1&ndash;2 hrs</td></tr>
+        <tr><td>Controller (RXV)</td><td>$350&ndash;$700</td><td>Moderate</td><td>2 hrs</td></tr>
+        <tr><td>Motor brushes</td><td>$30&ndash;$60</td><td>Moderate</td><td>1 hr</td></tr>
+        <tr><td>Battery set (6&times;8V 48V)</td><td>$400&ndash;$700</td><td>Easy</td><td>1&ndash;2 hrs</td></tr>
+      </tbody>
+    </table>
+<div class="aff-box">
+  <strong>EZGO Solenoid (36V/48V) &mdash; Amazon</strong>
+  <p>OEM-spec replacement solenoid compatible with TXT and most EZGO platforms. 4-terminal design.</p>
+  <a href="https://www.amazon.com/s?k=EZGO+golf+cart+solenoid+36v+48v&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+<div class="aff-box">
+  <strong>EZGO Forward/Reverse Switch &mdash; Amazon</strong>
+  <p>TXT-compatible F/R switch. Check your year — TXT dash-mount vs under-seat styles differ.</p>
+  <a href="https://www.amazon.com/s?k=EZGO+TXT+forward+reverse+switch&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+    <p style="margin-top:20px"><a href="/ezgo/">&larr; Back to E-Z-GO Guides</a></p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="footer-logo" href="/">Cart<span style="color:#f97316">Fix</span></a>
+        <p class="footer-tagline">Step-by-step diagnostics for E-Z-GO, Club Car, and Yamaha golf carts. Real repair guides with parts sourcing.</p>
+      </div>
+      <div class="footer-col">
+        <h2>By Brand</h2>
+        <ul>
+          <li><a href="/ezgo/">E-Z-GO Guides</a></li>
+          <li><a href="/club-car/">Club Car Guides</a></li>
+          <li><a href="/yamaha/">Yamaha Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Fix By Symptom</h2>
+        <ul>
+          <li><a href="/fix/golf-cart-beeping-wont-move/">Beeping &amp; Won&#39;t Move</a></li>
+          <li><a href="/fix/golf-cart-slow-uphill/">Slow on Hills</a></li>
+          <li><a href="/fix/golf-cart-runs-then-dies/">Runs Then Dies</a></li>
+          <li><a href="/about.html">About CartFix</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CartFix &mdash; operated by Atlas Edge Group &mdash; <a href="/privacy.html" style="color:#64748b">Privacy Policy</a>. As an Amazon Associate we earn from qualifying purchases. All repair procedures are for informational purposes only; work safely and consult a professional for high-voltage systems.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

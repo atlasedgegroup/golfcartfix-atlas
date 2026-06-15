@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Club Car Charger Not Charging: OBC and Charger Diagnosis | CartFix</title>
+<meta name="description" content="Club Car golf cart charger not charging? Diagnose OBC blocking, low pack voltage, charger faults, and receptacle issues. DS and Precedent covered.">
+<link rel="canonical" href="https://golfcartfix-atlas.netlify.app/club-car/charger-not-charging/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1470322051236593" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-bar">
+      <a class="logo" href="/">Cart<span>Fix</span></a>
+      <div class="main-nav">
+        <a href="/ezgo/">E-Z-GO</a>
+        <a href="/club-car/">Club Car</a>
+        <a href="/yamaha/">Yamaha</a>
+        <a href="/fix/">Fix By Symptom</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">CartFix</a> &rsaquo; <a href="/club-car/">Club Car</a> &rsaquo; Charger Not Charging</div>
+    <h1>Club Car Charger Not Charging: Diagnosis Guide</h1>
+    <p class="hero-sub">Covers Lester Summit, DPI, and older chargers. OBC-related no-charge is the most common cause on 48V models &mdash; this guide walks through it and the actual charger/battery scenarios.</p>
+  </div>
+</section>
+
+<section class="action-panel">
+  <div class="container">
+    <h2>Fast Answer</h2>
+    <p>On 48V Club Cars (1994.5&ndash;2014): plug in charger, does the charger make any sound or show any indicator light? <strong>Complete silence</strong> = OBC blocking the charge (see OBC bypass guide). <strong>Charger clicks on then off immediately</strong> = pack voltage too low for charger to complete handshake. <strong>Charger hums but current doesn&#39;t flow</strong> = check DC output cable and charger receptacle connection.</p>
+    <div class="action-grid">
+      <div class="action-item"><strong>Complete Silence</strong><p>OBC blocking signal. Disconnect OBC 6-pin connector and retry. See OBC bypass guide.</p></div>
+      <div class="action-item"><strong>Clicks On/Off</strong><p>Pack too low for charger handshake. Manually trickle-charge each battery to bring pack above 34V threshold.</p></div>
+      <div class="action-item"><strong>Runs But No Current</strong><p>Check DC output cable at both ends. Also verify charger receptacle on cart isn&#39;t corroded.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-content">
+  <div class="container">
+    <h2>Systematic Diagnosis</h2>
+
+    <h3>Step 1: Identify Your Charger Type</h3>
+    <p>Club Car used several charger types over the years. <strong>Lester Summit</strong> is the most common OEM unit on 48V models (2000s&ndash;2014). Older carts used a <strong>Lestronic II</strong>. Some fleet carts use <strong>DPI</strong> units. The Lester Summit and Lestronic both communicate with the OBC; aftermarket chargers like Schauer or MODZ Smart may bypass the OBC entirely.</p>
+
+    <h3>Step 2: Check Pack Voltage</h3>
+    <p>Measure total pack voltage at the main battery posts. Below 34V total = the charger won&#39;t engage (OBC protection). Between 34&ndash;40V = low but above threshold, charger should start. Above 50V = pack is already near full, charger may shut off quickly (this is normal).</p>
+
+    <h3>Step 3: OBC Bypass Test</h3>
+    <p>If voltage is below 34V and the charger won&#39;t start: disconnect the OBC 6-pin connector (under the seat) and retry the charger. If it now starts charging, the OBC was blocking it due to low voltage. Charge the pack fully with OBC disconnected, then reconnect the OBC. <a href="/club-car/obc-bypass/">See the full OBC bypass guide.</a></p>
+
+    <h3>Step 4: Check the Charger Receptacle</h3>
+    <p>The charging receptacle on the cart (the port you plug the charger cable into) is a common failure point. Inspect the pins for corrosion, burning, or bent contacts. A bad receptacle prevents the charger from making proper electrical contact. Receptacle replacement: $15&ndash;$40.</p>
+
+    <h3>Step 5: Test the Charger Output</h3>
+    <p>If the pack voltage is in range and the OBC is ruled out, test the charger&#39;s DC output. Set multimeter to DC voltage. With the charger unplugged from the cart, plug it into AC and measure the output pins. A working charger should show the pack voltage or slightly higher (48&ndash;58V). Zero volts output = failed charger.</p>
+
+    <table class="cost-table">
+      <thead><tr><th>Component</th><th>Cost</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td>Charging receptacle (cart side)</td><td>$15&ndash;$40</td><td>Easy 20-min swap</td></tr>
+        <tr><td>OBC replacement</td><td>$35&ndash;$80</td><td>If OBC tests failed</td></tr>
+        <tr><td>Lester Summit charger</td><td>$220&ndash;$380</td><td>OEM replacement</td></tr>
+        <tr><td>MODZ Max48 smart charger</td><td>$180&ndash;$280</td><td>Aftermarket; bypasses OBC</td></tr>
+      </tbody>
+    </table>
+<div class="aff-box">
+  <strong>Club Car Charging Receptacle &mdash; Amazon</strong>
+  <p>Replacement charge port receptacle for Club Car DS and Precedent. Check plug style (Round vs Powerdrive).</p>
+  <a href="https://www.amazon.com/s?k=Club+Car+golf+cart+charging+receptacle&tag=atlasedgegrou-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon &rarr;</a>
+  <span class="aff-disc">As an Amazon Associate, CartFix earns from qualifying purchases.</span>
+</div>
+    <p style="margin-top:20px"><a href="/club-car/">&larr; Back to Club Car Guides</a></p>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="footer-logo" href="/">Cart<span style="color:#f97316">Fix</span></a>
+        <p class="footer-tagline">Step-by-step diagnostics for E-Z-GO, Club Car, and Yamaha golf carts. Real repair guides with parts sourcing.</p>
+      </div>
+      <div class="footer-col">
+        <h2>By Brand</h2>
+        <ul>
+          <li><a href="/ezgo/">E-Z-GO Guides</a></li>
+          <li><a href="/club-car/">Club Car Guides</a></li>
+          <li><a href="/yamaha/">Yamaha Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>Fix By Symptom</h2>
+        <ul>
+          <li><a href="/fix/golf-cart-beeping-wont-move/">Beeping &amp; Won&#39;t Move</a></li>
+          <li><a href="/fix/golf-cart-slow-uphill/">Slow on Hills</a></li>
+          <li><a href="/fix/golf-cart-runs-then-dies/">Runs Then Dies</a></li>
+          <li><a href="/about.html">About CartFix</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 CartFix &mdash; operated by Atlas Edge Group &mdash; <a href="/privacy.html" style="color:#64748b">Privacy Policy</a>. As an Amazon Associate we earn from qualifying purchases. All repair procedures are for informational purposes only.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
